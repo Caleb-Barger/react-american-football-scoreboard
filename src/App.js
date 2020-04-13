@@ -50,6 +50,7 @@ function App() {
     }
     if (ballOn <= 0) {
       console.log('TOUCHDOWN!!')
+      setYrds(0)
       setDown(1)
       setBallPos(50)
     }
